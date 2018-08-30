@@ -1,7 +1,7 @@
 require_relative "../lib/move.rb"
 
 describe './bin/move executing a CLI Application' do
-  
+
 
   it 'prints "Welcome to Tic Tac Toe!"' do
     allow($stdout).to receive(:puts)
