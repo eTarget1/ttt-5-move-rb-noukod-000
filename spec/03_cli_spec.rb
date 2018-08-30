@@ -11,7 +11,7 @@ describe './bin/move executing a CLI Application' do
     expect(board).to eq([" ", " ", " ", " ", " ", " ", " ", " ", " "])
   end
 
-  
+
   it 'asks the user for input' do
     allow($stdout).to receive(:puts)
 
